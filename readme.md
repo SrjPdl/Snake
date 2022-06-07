@@ -5,7 +5,7 @@ A snake game made with [Borland Graphics Interface (BGI)](https://home.cs.colora
 ```bash
 git clone https://github.com/SrjPdl/Snake.git
 ```
-The project was made using [Code::Blocks](https://www.codeblocks.org/) IDE.
+The project was made using [Code::Blocks](https://www.codeblocks.org/) IDE.\
 Setup tutorial for graphics.h for running the game in Code::Blocks. [Setup graphics.h](https://tejassproxy.blogspot.com/2016/06/how-to-setup-winbgim-library-in.html)
 
 ## 🎮 Controls
