@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1556693959 source:e:\c++\snake\snake.cpp
+	<dos.h>
+	<graphics.h>
+	<stdio.h>
+	<windows.h>
+
