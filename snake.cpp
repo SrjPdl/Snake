@@ -62,7 +62,7 @@ void cl(int x1, int y1)
     setfillstyle(SOLID_FILL, BLACK);
     bar(x1, y1, x1 + factor, y1 + factor);
 }
-int tail()
+void tail()
 {
     int i;
     int prevx1 = tailx1[0];
@@ -92,8 +92,7 @@ int tail()
 }
 void control(flag ctrl)
 {
-    int i, l = 0;
-    static int c;
+    int i;
     char ch;
     int x = 110;
     char buffer[20];
@@ -299,12 +298,10 @@ void get_input(char c)
 }
 void exit_window()
 {
-    char buffer[20];
     cleardevice();
 }
 int main()
 {
-    int i = 0;
     char c;
     initwindow(500, 500, "SNAKE", 100, 100, false, true);
     setbkcolor(CYAN);
